@@ -1,68 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
-
-* {
-    margin: 0;
+*{
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 
 body {
-    font-family: Poppins;
-    background-color: #f5f5dc;
+    background-color: #DEB887;
 }
 
-a {
-    font-size: 1,5em;
+nav{
+    background-color: #f5f5dc;
+    border-bottom: #F0F8FF 4px solid;
+}
+
+nav a {
     text-decoration: none;
-    padding: 5%;
-    line-height: 3rem;
-    font-weight: bold;
-    color: chocolate;
+    color: #222;
 }
 
-a:hover{
-    background-color: #f5f5dc;
-    transition: .5s;
-    color: black;
-}
-
-li {
+nav li{
     list-style-type: none;
     display: inline;
-}
-
-nav {
-    width: 100%;
-    padding: 5px;
-    background-color: #e7e7bc;
-    border-bottom: #7c7c47 2px solid;
-}
-.banner{
-    width: 100%;
-}
-
-.produto, .foto, .nome-produto, .descricao, .btn{
-    border: black;
-}
-
-.foto img {
-    width: 280px;
-}
-
-.produto{
-    height: 425px;
-    padding: 0.5em;
-    border-radius: 5%;
-}
-
-.nome-produto{
-    font-size: 1.5em;
-    font-weight: bold;
-}
-
-.produto :hover{
-    background-color: ;
-}
-.descricao{
-    height: 3rem;
 }
