@@ -11,14 +11,65 @@ body {
 nav{
     background-color: #f5f5dc;
     border-bottom: #F0F8FF 4px solid;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
 }
 
 nav a {
     text-decoration: none;
     color: #222;
+    padding: 1em;
+    font-size: 1.5em;
+    font-weight: 600;
 }
 
 nav li{
     list-style-type: none;
     display: inline;
+}
+
+.banner {
+text-align: center;
+}
+
+.banner img{
+    width: 90%;
+}
+
+h3{
+    padding-top: 80px;
+}
+.produto{
+    padding: 15px;
+    transition: .5s;
+}
+
+.produto:hover{
+    background-color:#f5f5dc ;
+    transition: .5s;
+}
+
+.img-produto{
+    width: 100%;
+}
+
+.nome-produto{
+    font-weight: 600;
+    padding: 8px 0;
+    font-size: 1.5em;
+}
+
+.preco{
+    font-weight: 700;
+    padding: 5px 0;
+}
+
+.descricao{
+    line-height: 1;
+    height: 40px;
+    overflow: hidden;
+}
+.button{
+    width: 100%;
 }
