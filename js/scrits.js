@@ -1,0 +1,1 @@
+console.log("Teste - o script esta funcionando");
